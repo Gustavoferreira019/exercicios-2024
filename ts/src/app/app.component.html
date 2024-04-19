@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Exercício Ts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../favicon.ico">
+  <link rel="stylesheet" href="./app.component.scss">
+
+  <!--Acrescentando fonte Roboto-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+
+  <!--Acrescentando fonte Quicksand-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <aside class="side-menu">
+    <section class="aside-infos">
+      <h1 class="aside-title">SLACA 2019</h1>
+      <div src='./img/slacaIcon.png' alt="slaca-icon"></div>
+    </section>
+
+    <section class="menu-aside">
+      <nav class="nav-aside">
+        <ul class="nav-list">
+          <li><a href="#">Apresentação</a></li>
+          <li><a href="#">Comitês</a></li>
+          <li><a href="#">Autores</a></li>
+          <li><a href="#">Eixos temáticos</a></li>
+          <li><a href="#" style="background-color:#FDF1EB;" class="indicador-aside">Trabalhos</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </section>
+  </aside>
+
+
+  <header class="header">
+    <div class="informacoes-header">
+      <p class="desc-header">Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
+      <h2>Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</h2>
+      <p class="issn">ISSN: 1234-5678</p>
+    </div>
+
+    <div class="lingua-edit">
+      <button class="lingua-header">
+        <div class="globe-div"></div>
+        <p class="linguagem-header">PT, BR</p>
+        <div class="dropdown-icon"></div>
+      </button>
+    </div>
+
+    <div class="usuario-header">
+      <div class="saudacao">
+        <p>Bem vindo !</p>
+        <p class="email">alguem12@galoascience.com</p>
+      </div>
+      <div class="user">
+        <div class="user-photo"></div>
+        <div class="notification">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <div class="title-container">
+      <h2 class="title-main">Análise sensorial de preparações funcionais desenvolvidas para escolares <br>
+        entre 09 e 15 anos, do município de Campinas/SP</h2>
+      <div class="main-buttons">
+        <button class="button-download">
+          <div class="download-icon"></div>
+          <p class="download-text">Download</p>
+        </button>
+        <button class="favorite-button">
+          <div class="img"></div>
+        </button>
+        <button class="doi-button">
+        </button>
+        <p class="question-p">COMO CITAR ESTE TRABALHO?</p>
+      </div>
+    </div>
+
+    <section class="overlay-container">
+      <div class="overlay-player">
+        <div class="player-overlay"></div>
+        <div class="overlay">
+          <div class="overlay-itens">
+            <h2 class="text-overlay">Análise sensorial de preparações funcionais desenvolvidas <br> para escolares
+              entre 09 e 15 anos, do município de <br> Campinas/SP</h2>
+            <div class="apresentacao-container">
+              <div class="person-icon"></div>
+              <div>
+                <p class="text-apresentacao-nome">Beatriz Christiane Melo</p>
+                <p class="text-apresentacao-instituicao">FCA / Universidade Estadual de Campinas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="extra-info">
+        <div class="info-container">
+          <header class="header-container">
+            <h3>Detalhes</h3>
+          </header>
+
+          <div class="detalhes-container">
+            <div class="explicacao-container">
+              <p><span class="explicacao-info">Tipo de Apresentação:</span> <span class="info-span">Pôster</span></p>
+              <p><span class="explicacao-info">Eixo temático:</span> <span class="info-span">Alimentação e saúde</span>
+                <br>
+                <span class="info-span">(AS)</span>
+              </p>
+              <p><span class="explicacao-info">Palavras-chaves:</span> <span class="info-span">Alimentos <br>
+                  funcionais,
+                  alimentação escolar.</span></p>
+            </div>
+            <div class="autores-container">
+              <p><span class="autores-span">Autores:</span></p>
+              <p class="autores">Galileo Galilei <sup><span class="sup-span">1</span></sup></p>
+              <p class="autores">Verta Lange de Morretes <sup><span class="sup-span">2</span></sup></p>
+              <p class="autores">Isaac Newton <sup><span class="sup-span">3</span></sup></p>
+              <p class="autores">Cesar Lattes <sup><span class="sup-span">1</span></sup></p>
+              <p class="autores">Stephen Hawking <sup><span class="sup-span">4</span></sup></p>
+            </div>
+            <div class="faculdades-container">
+              <p class="nomes-faculdade"><sup><span class="sup-span">1</span></sup> Universidade Estadual de Campinas
+              </p>
+              <p class="nomes-faculdade"><sup><span class="sup-span">2</span></sup> Universidade de São Paulo</p>
+              <p class="nomes-faculdade"><sup><span class="sup-span">3</span></sup> Instituto Nacional de Pesquisas
+                Espaciais</p>
+              <p class="nomes-faculdade"><sup><span class="sup-span">4</span></sup> Universidade Federal do Rio de
+                Janeiro</p>
+            </div>
+            <div class="scroll"></div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <article class="resumo" id="resumo">
+      <header class="header-resumo">
+        <h3>Resumo</h3>
+      </header>
+
+      <div class="resumo-container">
+        <p class="p-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id commodi alias nisi qui laborum
+          impedit, neque hic nihil non voluptatibus doloribus maxime, animi doloremque dolore molestias, quisquam
+          aspernatur reiciendis rerum. Deserunt consequatur nesciunt, officia consequuntur, cumque odit expedita hic
+          veritatis, quam laborum eligendi tempora architecto vitae quisquam deleniti natus sit animi. Tempore neque
+          necessitatibus ad autem nihil animi voluptates quas sunt eligendi, numquam deserunt amet officia saepe aliquam
+          placeat laudantium incidunt dolor. At facilis earum exercitationem debitis nesciunt natus qui? Nisi temporibus
+          explicabo officiis minus ipsum aliquam harum? Ipsum, impedit. Magnam itaque aspernatur, totam doloremque quis
+          dolorum veritatis beatae minus dolore unde ex odit libero commodi nemo tempore reprehenderit impedit quasi
+          voluptas maxime dignissimos architecto eligendi? Nemo a repellendus deserunt id laboriosam nobis blanditiis
+          tenetur, aliquam, omnis obcaecati saepe consectetur voluptatem asperiores quo praesentium molestias?
+          Reprehenderit, sunt ea aliquam cum ad aspernatur placeat modi dignissimos. Praesentium minima error, ducimus
+          saepe doloribus necessitatibus qui sequi consequuntur fugiat possimus aspernatur repellat itaque quod! Porro
+          velit dolo sunt ea aliquam cum ad asper<span class="additional-text" style="display: none;"> Lorem ipsum dolor
+            sit
+            amet consectetur adipisicing elit. Optio sapiente ipsa pariatur voluptatum repellendus consequatur fugiat
+            odio error. Corrupti itaque ut sint quo molestias labore suscipit quisquam numquam corporis, consectetur
+            cumque, quam consequuntur, molestiae incidunt totam repudiandae veniam maiores facere. Repellendus officia
+            dignissimos perspiciatis iusto autem maiores ipsam sunt saepe deleniti quo? Impedit nam eveniet aut porro
+            laudantium consequatur perferendis voluptas! Hic, facilis id. Ullam soluta placeat voluptas eum est autem
+            deleniti obcaecati enim? Debitis soluta facilis ipsum dignissimos natus laudantium doloribus. Quam, expedita
+            aspernatur! Natus, beatae soluta? Dolorum, veniam eaque temporibus iure sed repudiandae, labore possimus
+            accusamus illum blanditiis itaque. Pariatur dolores libero rem ipsam, doloremque laboriosam qui cupiditate
+            blanditiis, odio magnam a reprehenderit praesentium sapiente eum ullam. Facilis possimus sunt id enim
+            sapiente doloribus corrupti exercitationem distinctio nisi temporibus quibusdam optio velit eius excepturi
+            quas iure aliquid quo illum commodi, nesciunt nemo deleniti ratione! Cupiditate distinctio a architecto.
+            Asperiores excepturi id itaque cupiditate repellat. Corrupti, commodi. Eos vero provident hic ut, deleniti
+            quo impedit magni nulla eum? Voluptatum, iure amet nam itaque vel atque! Animi dolores quod officia nemo
+            dignissimos voluptates tempora aliquam ullam deleniti aspernatur, excepturi sequi ipsa minima repellendus?
+            Quidem tempora iste quas voluptates, et nobis repellat dicta numquam. Obcaecati itaque vero sint ut
+            repudiandae, nemo sit dolore veritatis facilis labore non ab delectus et quis consequatur illum hic suscipit
+            odio. Animi odio voluptatum velit eius molestiae! Et a corporis eligendi magni quia dolor assumenda
+            laudantium quaerat molestiae tempora fuga, voluptatibus cupiditate, voluptatem sapiente nam ipsam. Officiis
+            velit aut recusandae, vero reiciendis quasi impedit numquam quia exercitationem inventore laudantium commodi
+            ipsam! Odio, est rem nesciunt explicabo, quidem ad consequatur culpa distinctio odit aperiam officiis,
+            excepturi illum? Corporis, repellat? Nobis nam quos perspiciatis blanditiis sapiente eaque eveniet, amet
+            modi et consectetur est voluptatum ipsam assumenda voluptatibus, vel suscipit accusantium, illo sequi rem.
+            Distinctio aut, totam obcaecati deserunt sit illo.Corporis, repellat? Nobis nam quos perspi.</span></p>
+        <button class="btn-show-more" (click)="expandirResumo()">ver mais</button>
+      </div>
+
+
+    </article>
+
+    <section class="campo-comentarios">
+      <div class="user-container">
+        <header id="discussoes" class="header-comentarios">
+          <h3>Discussões</h3>
+        </header>
+        <div class="container-comentarios">
+          <p class="introducao-comentarios">Compartilhe suas ideias ou dúvidas com os autores!</p>
+          <div class="icones-comentarios">
+            <div class="icone1"></div>
+            <div class="icone2"></div>
+            <div class="icone3"></div>
+          </div>
+          <p class="chamada-comentario div-comment">Sabia que o maior estímulo no desenvolvimento científico e cultural é a
+            curiosidade? Deixe seus <br> questionamentos ou sugestões para o autor!</p>
+          <button class="btn-create-topic" (click)="criarTopico()" type="button">
+            <div class="plus-icon"></div>
+            <p>criar tópico</p>
+          </button>
+          <div class="form-create-topic">
+            <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+            <form id="topic-form" name="comment-form">
+              <div class="assunto-container">
+                <label for="comment-form">Assunto</label>
+                <input class="subject" type="comment-form" id="comment-form" name="input-comment"
+                  placeholder="Defina um tópico sucinto para notificar os autores...">
+
+              </div>
+              <div class="conteudo-container">
+                <label for="conteudo">Conteúdo</label>
+                <textarea class='text' id="conteudo" name="conteudo" rows="8" cols="50" required></textarea>
+              </div>
+            </form>
+            <div class="sub-btn"><button class="submit-button" type="submit" (click)="confirmSend()">Enviar</button>
+            </div>
+          </div>
+
+          <div class="comment-done">
+            <h3 class="comment-title">Seu tópico foi enviado com sucesso! :D</h3>
+            <p class="comment-paragraph">Agradecemos por sua contribuição, uma notificação será enviada ao seu email
+              assim que seu tópico foi respondido!</p>
+
+            <a class="findOthers" href="#">Descubra outros trabalhos!</a>
+
+            <button class="btn-new-topic" (click)="criarTopico()">
+              <span class="new-topic">criar novo tópico</span>
+            </button>
+          </div>
+        </div>
+        <section class="confirm-done">
+          <div class="done-container">
+            <div class="user-content">
+              <h3 class="doneH3">Assunto da pergunta aparece aqui</h3>
+              <p class="done-name">Carlos Henrique Santos</p>
+            </div>
+
+
+            <div class="comment-container">
+              <p class="done-chamada">Comecinho da pergunta aparece aqui rescente relato inscreve-se no campo da análise
+                da dimensão e
+                impacto
+                <br>
+                de processo formativo situado impacto de processo formativo processo...
+              </p>
+            </div>
+          </div>
+
+          <div class="feedback-screen">
+            <div class="img-confirm"></div>
+            <p class="paragraph-feedback">Aguardando feedback dos autores</p>
+            <a href="#discussoes" (click)="criarTopico()" class="link-feedback">Editar tópico</a>
+          </div>
+        </section>
+
+
+        <section class="comentarios-container">
+          <div class="comentario-usuario">
+            <div class="header-usuario">
+              <h3>Assunto da pergunta aparece aqui</h3>
+              <p>Carlos Henrique Santos</p>
+            </div>
+            <div class="comentario">
+              <p>Comecinho da pergunta aparece aqui rescente relato inscreve-se no campo da análise da dimensão e
+                impacto
+                <br>
+                de processo formativo situado impacto de processo formativo processo...
+              </p>
+            </div>
+            <footer>
+              <div class="footer-icons">
+                <div class="fav-icon"></div>
+                <div class="info-icon"></div>
+                <p>1 like</p>
+                <p>1 resposta</p>
+              </div>
+            </footer>
+          </div>
+        </section>
+        <section class="comentarios-container">
+          <a class="answered-topic" (click)="expandAnswer()">
+            <div class="comentario-usuario ">
+              <div class="header-usuario">
+                <h3>Assunto da pergunta aparece aqui</h3>
+                <p>Carlos Henrique Santos</p>
+              </div>
+              <div class="comentario">
+                <p>Comecinho da pergunta aparece aqui rescente relato inscreve-se no campo da análise da dimensão e
+                  impacto
+                  <br>
+                  de processo formativo situado impacto de processo formativo processo...
+                </p>
+              </div>
+              <footer>
+                <div class="footer-icons">
+                  <div class="fav-icon"></div>
+                  <div class="info-icon"></div>
+                  <p>4 likes</p>
+
+                  <p>4 respostas</p>
+                </div>
+              </footer>
+            </div>
+          </a>
+
+          <div class="comments-container">
+            <div class="comentario-usuario container-comment">
+              <div class="header-reply">
+                <h3 class="user-name">Adriano da Silva</h3>
+                <div class="header-author">
+                  <span class="class-autor">Autor</span>
+                  <div class="check-icon"></div>
+                </div>
+              </div>
+              <div class="comentario">
+                <p class="p-comentario">
+                  Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo
+                  formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise
+                  da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                </p>
+              </div>
+            </div>
+            <div class="comentario-usuario">
+              <div class="header-reply">
+                <h3 class="user-name">Carlos Henrique Santos</h3>
+              </div>
+              <div class="comentario">
+                <p class="p-comentario">
+                  Consegui entender melhor agora! Parece que a variação da análise da dimensão e impacto de processo
+                  formativo situado impacto de processo formativo. <br><br><br><br> Obrigada pela resposta, muito
+                  interessante o seu trabalho!
+                </p>
+              </div>
+            </div>
+            <div class="comentario-usuario container-comment">
+              <div class="header-reply">
+                <h3 class="user-name">Carmila Ferreira Andrade</h3>
+                <div class="header-author">
+                  <span class="class-autor">Coautor</span>
+                  <div class="check-icon"></div>
+                </div>
+              </div>
+              <div class="comentario">
+                <p class="p-comentario">
+                  Também ínteressante lembrar que o relato inscreve-se no campo da análise da dimensão e impacto de
+                  processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da
+                  análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                  <br><br><br><br><br>
+                  Situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da
+                  dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                </p>
+              </div>
+            </div>
+            <div class="comentario-usuario container-comment">
+              <div class="header-reply">
+                <h3 class="user-name">Ana Carolina</h3>
+                <div class="header-author">
+                  <span class="class-autor">Coautor</span>
+                  <div class="check-icon"></div>
+                </div>
+              </div>
+              <div class="comentario">
+                <p class="p-comentario">
+                  Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo <br>formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer-page">
+    <div class="footer-container"></div>
+  </footer>
+
+</body>
+
+</html>
