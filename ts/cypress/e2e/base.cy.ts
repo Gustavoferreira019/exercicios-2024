@@ -9,7 +9,7 @@ describe('checa elementos básicos', () => {
   });
 
   it('botão de expandir resumo existe', () => {
-    cy.get('.btn-show-more').contains('ver mais')
+    cy.get('.btn-show-more').contains('ver mais');
     cy.get('.btn-show-more').click();
     cy.compareSnapshot('Trabalho - Resumo expandido');
   });
@@ -20,7 +20,7 @@ describe('checa elementos básicos', () => {
 
   it('clicar em `criar tópico` exibe o formulário', () => {
     cy.get('.btn-create-topic').click();
-    cy.get('button').contains('Enviar')
+    cy.get('button').contains('Enviar');
     cy.get('form').contains('Assunto');
     cy.get('form').contains('Conteúdo');
     cy.get('input.subject').invoke('attr', 'placeholder').should('contain', 'Defina um tópico sucinto para notificar os autores...');
